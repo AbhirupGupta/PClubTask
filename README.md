@@ -3,8 +3,10 @@
 It is 2350 and humans now have hitpoints like video game characters. The *Jazzis* have decided to *slayy* all criminals.
 To do so, the new *Gen* $\Omega$ *Hilter* wants to send each criminal through a *5 X 5* grid of rooms as shown. Each room has a gas which 
 when inhaled reduces the hitpoints of the criminal by some amount.The amount is specified in each box of the grid.
-The criminal enters at the top right corner and the exit is at the bottom right corner, and he is allowed to move only
+The criminal enters at the top left corner and the exit is at the bottom right corner, and he is allowed to move only
 rightwards or downwards.
+
+*example:*
 
 | 1 | 2 | 3 | 4 | 5 |
 |-|-|-|-|-|
