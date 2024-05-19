@@ -17,7 +17,7 @@ rightwards or downwards.
 However the criminal manages to sneak in *k* gas masks, which protect him from the damage of the gas. He can use a gas mask in one room only.
 Help Hilter find out the minimum hitpoint loss of the criminal
 
-**INPUT**
+**INPUT:**
 
 The first line of the input contains an integer *t*(1 <= *t* <=10^3) denoting number of test cases. 
 
@@ -25,7 +25,7 @@ The second line of the input contains an integer *k*(1<=k<=5) denoting the numbe
 
 Each test case contains *25* space-separated integers in the range [1,9] indicating the damage the gas does in the corresponding rooms.
 
-**OUTPUT**
+**OUTPUT:**
 
 For each test case, output a single integer indicating the minimum hitpoint loss the criminal can suffer.
 
