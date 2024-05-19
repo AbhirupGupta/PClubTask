@@ -1,7 +1,7 @@
 #include "testlib.h"
 
 int main(int argc, char * argv[]) {
-    setName("compares two signed integers");
+    setName("compares expected and actual integer outputs");
     registerTestlibCmd(argc, argv);
     int ja = ans.readInt();
     int pa = ouf.readInt();
