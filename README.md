@@ -1,5 +1,4 @@
 # Gen $\Omega$ Hilter
-***Problem Statement:***
 
 It is 2350 and humans now have hitpoints like video game characters. The *Jazzis* have decided to *slayy* all criminals.
 To do so, the new *Gen* $\Omega$ *Hilter* wants to send each criminal through a *5 X 5* grid of rooms as shown. Each room has a gas which 
