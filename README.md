@@ -15,8 +15,8 @@ rightwards or downwards.
 |7 |8 |9 |1 |2 |
 |3 |4 |5 |6 |7 |
 
-However the criminal manages to sneak in *k* gas masks, which protect him from the damage of the gas. He can use a gas mask in one room only.
-Help Hilter find out the minimum hitpoint loss of the criminal
+However the criminal manages to sneak in *k* gas masks, which make him immune to the damage of the gas. He can use a gas mask in one room only.
+Help Hilter find out the minimum hitpoint loss of the criminal.
 
 **INPUT:**
 
