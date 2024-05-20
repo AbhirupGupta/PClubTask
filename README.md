@@ -19,7 +19,8 @@ However he cannot re-enter a room or enter a blocked room.
 |7 |8 |9 |-1 |2 |
 |3 |-4 |5 |6 |7 |
 
-Moreover the criminal manages to sneak in *k* gas masks, which make him immune to the damage of the gas. He can use one gas mask in one room only (i.e non-reusable gas masks).
+Moreover the criminal manages to sneak in *k* gas masks, which make him immune to the damage of the gas. He can use one gas mask 
+in one room only (i.e. non-reusable gas masks).
 Help Hitler find out the maximum possible hitpoint of the *Alpha Male* after he leaves the grid.
 
 **INPUT:**
@@ -33,7 +34,9 @@ Negative integers indicate poisonous gas, positive integers indicate medicine wh
 
 **OUTPUT:**
 
-For each test case, output a single integer indicating the final hitpoint of the *Alpha Male*.
+For each test case, output a single integer indicating the final hitpoint of the *Alpha Male*. 
+
+Display *-1* if the grid is invalid (i.e. the *Alpha Male* can never reach the exit).
 
 Example:
 
@@ -43,31 +46,7 @@ Example:
 
 2
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-1
-2
-3
-4
-5
-6
-7
-8
-9
-1
-2
-3
-4
-5
-6
-7
+> !!! Insert 16 integers here !!! 
 
 *output*:
 
@@ -82,7 +61,7 @@ Note:
 |7 |8 |9 |1 |*2X* |
 |3 |4 |5 |6 |*7X* |
 
-The criminal follows the path shown by the X's and uses the *2* masks in rooms which do damage of amount *6* and *7* respectively.
+The *Alpha Male* follows the path shown by the X's and uses the *2* masks in rooms which do damage of amount *6* and *7* respectively.
 
 
 
