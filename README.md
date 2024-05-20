@@ -26,9 +26,8 @@ Help Hitler find out the maximum possible hitpoint of the *Alpha Male* after he 
 
 The first line of the input contains an integer *t*(1 <= *t* <=10^3) denoting number of test cases. 
 
-The second line of the input contains an integer *k*(1<=k<=3) denoting the number of gas masks.
-
-Each test case contains *25* space-separated integers in the range [-10,10].
+Each test case contains an integer *k*(0<=k<=3) denoting the number of gas masks, followed by 
+*16* space-separated integers in the range [-10,10] in the next line.
 
 Negative integers indicate poisonous gas, positive integers indicate medicine while *'0'* indicates a blocked room.
 
