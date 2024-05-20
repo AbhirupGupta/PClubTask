@@ -1,1 +1,1 @@
-This is a relatively simple recursion problem
+This is a relatively simple backtracking problem which I have solved using Recursion. I do no have much in-depth knowledge about heap or graphs which probably could have been used to come up with a much more efficient algorithm.
