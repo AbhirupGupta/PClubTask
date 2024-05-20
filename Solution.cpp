@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int k;
+int k, flag=0;
 multiset <int> total;
 int grid[4][4];
 void read(){
@@ -13,6 +13,7 @@ void read(){
 
 void solve(int i,int j, multiset <int> dmg){
     if(i==3 && j==3){
+        flag=1;
         int sum=0,idx=0;
         dmg.insert(grid[3][3]);
 
@@ -41,9 +42,12 @@ int main(){
     read();
     multiset <int> dmg;
     solve(0,0,dmg);
+    int hp=-1;
+    if(flag==1){
     auto val=total.end();
-    int hp=100+*(--val);
+    hp=100+*(--val);
     if(hp>200)hp=200;
+    }
     cout<<hp<<endl;
     }
     return 0;
