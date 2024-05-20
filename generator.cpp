@@ -11,7 +11,8 @@ int main(int argc, char* argv[])
   while(t--){
     cout << rnd.next(0, 3) << endl;
     for(int i=0;i<16;i++){
-        cout << rnd.next(-10, 10) << endl;
+        cout << rnd.next(-10, 10) << " ";
     }
+    cout << endl;
   }
 }
