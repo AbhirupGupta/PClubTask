@@ -9,9 +9,9 @@ int main(int argc, char* argv[])
   int t=rnd.next(1, 1000);
   cout << t << endl;
   while(t--){
-    cout << rnd.next(-10, 10) << endl;
+    cout << rnd.next(0, 3) << endl;
     for(int i=0;i<16;i++){
-        cout << rnd.next(1, 10) << endl;
+        cout << rnd.next(-10, 10) << endl;
     }
   }
 }
