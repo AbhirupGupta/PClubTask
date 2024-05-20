@@ -20,7 +20,7 @@ void solve(int i,int j, multiset <int> dmg){
         {
             sum+=*p;
         }
-        for(auto p= --dmg.end();idx<k;idx++,--p)sum-=*p;
+        for(auto p= dmg.begin();idx<k;idx++,--p)sum-=*p;
         total.insert(sum);
     }
     else if(i>=4 || j >=4 || i<0 || j<0 || grid[i][j]==0){return;}
@@ -41,8 +41,10 @@ int main(){
     read();
     multiset <int> dmg;
     solve(0,0,dmg);
-    auto val=total.begin();
-    cout<<*val<<endl;
+    auto val=total.end();
+    int hp=100+*(--val);
+    if(hp>200)hp=200;
+    cout<<hp<<endl;
     }
     return 0;
 }
