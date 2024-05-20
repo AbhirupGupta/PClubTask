@@ -19,7 +19,7 @@ However he cannot re-enter a room or enter a blocked room.
 |7 |8 |9 |-1 |2 |
 |3 |-4 |5 |6 |7 |
 
-Moreover the criminal manages to sneak in *k* gas masks, which make him immune to the damage of the gas. He can use a gas mask in one room only.
+Moreover the criminal manages to sneak in *k* gas masks, which make him immune to the damage of the gas. He can use one gas mask in one room only (i.e non-reusable gas masks).
 Help Hitler find out the maximum possible hitpoint of the *Alpha Male* after he leaves the grid.
 
 **INPUT:**
