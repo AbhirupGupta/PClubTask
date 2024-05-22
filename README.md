@@ -1,4 +1,4 @@
-# A. Gen $\Omega$ Hitler
+# Gen $\Omega$ Hitler
 
 It is 2350 and humans now have hitpoints like video game characters. The *Sigma Males* led by *Hitler*  have decided to *slayyy* all *Alpha Males*.
 To do so, the new *Gen* $\Omega$ *Hitler* wants to send each *Alpha Male* through a *4 X 4* grid of rooms as shown. Each room either has a gas which 
