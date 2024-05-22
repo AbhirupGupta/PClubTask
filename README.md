@@ -12,12 +12,11 @@ However he cannot re-enter a room or enter a blocked room.
 
 *example:*
 
-| 1 | -2 | 3 | 4 | 5 |
-|-|-|-|-|-|
-| 6 |-7 |-8 |9 |10 |
-| 2| 3| 0| 5| 6|
-|7 |8 |9 |-1 |2 |
-|3 |-4 |5 |6 |7 |
+| 1 | -2 | 3 | -4 |
+|-|-|-|-|
+| -6 |-7 |-8 |-9 |
+| 2| -3| 0| 5|
+|7 |-8 |-9 |-1 |
 
 Moreover the criminal manages to sneak in *k* gas masks, which make him immune to the damage of the gas. He can use one gas mask 
 in one room only (i.e. non-reusable gas masks).
@@ -44,24 +43,26 @@ Example:
 
 1
 
-2
+1
 
-> !!! Insert 16 integers here !!! 
+1 -2 3 -4 -6 -7 -8 -9 2 -3 0 5 7 -8 -9 -1 
 
 *output*:
 
-18
+102
 
 Note:
 
-| *1X* | *2X* | *3X* | *4X* | *5X* |
-|-|-|-|-|-|
-| 6 |7 |8 |9 |*1X* |
-| 2| 3| 4| 5| *6X*|
-|7 |8 |9 |1 |*2X* |
-|3 |4 |5 |6 |*7X* |
+| *1* | *-2* | *3* | *-4* | 
+|-|-|-|-|
+| -6 |-7 |-8 |***-9M*** |
+| 2| -3| 0| ***5***|
+|7 |-8 |-9 |***-1*** |
 
-The *Alpha Male* follows the path shown by the X's and uses the *2* masks in rooms which do damage of amount *6* and *7* respectively.
+The *Alpha Male* follows the path : 1 -> (-2) -> 3 -> (-4) -> (-9) -> 5 -> (-1) and uses the only mask in the room which reduces hitpoints by 9 (indicated by *-9M*).
+
+i.e. 1 + (-2) + 3 + (-4) + 5 + (-1) = 2
+
 
 
 
