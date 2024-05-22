@@ -1,3 +1,4 @@
+>Abhirup Gupta | 230043 | Task : Competitive Programming
 # Gen $\Omega$ Hitler
 
 It is 2350 and humans now have hitpoints like video game characters. The *Sigma Males* led by *Hitler*  have decided to *slayyy* all *Alpha Males*.
