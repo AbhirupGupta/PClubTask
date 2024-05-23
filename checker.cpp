@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
     int count = 0;
     while (!ans.seekEof() && !ouf.seekEof() && count < 100) {
         int ja = ans.readInt();
-        int pa = ouf.readInt(0,200,"Final hitpoints");
+        int pa = ouf.readInt(-1,200,"Final hitpoints");
         expected.push_back(ja);
         available.push_back(pa);
         count++;
