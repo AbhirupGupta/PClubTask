@@ -1,4 +1,9 @@
 >Abhirup Gupta | 230043 | Task : Competitive Programming
+
+>Polygon link below:
+
+https://polygon.codeforces.com/p1WXq1u/Atpug/pclub-task-hitler-ag
+
 # Gen $\Omega$ Hitler
 
 It is 2350 and humans now have hitpoints like video game characters. The *Sigma Males* led by *Hitler*  have decided to *slayyy* all *Alpha Males*.
@@ -25,7 +30,7 @@ Help Hitler find out the maximum possible hitpoint of the *Alpha Male* after he 
 
 **INPUT:**
 
-The first line of the input contains an integer *t*( 1 <= *t* <=10^3 ) denoting number of test cases. 
+The first line of the input contains an integer *t*( 1 <= *t* <=10^2 ) denoting number of test cases. 
 
 Each test case contains an integer *k*( 0 <= k <=3 ) denoting the number of gas masks, followed by 
 *16* space-separated integers in the range [-10,10] in the next line.
@@ -46,7 +51,37 @@ Example:
 
 1
 
-1 -2 3 -4 -6 -7 -8 -9 2 -3 0 5 7 -8 -9 -1 
+1 
+
+-2
+
+3 
+
+-4
+
+-6
+
+-7
+
+-8
+
+-9
+
+2 
+
+-3
+
+0 
+
+5 
+
+7 
+
+-8
+
+-9
+
+-1 
 
 *output*:
 
